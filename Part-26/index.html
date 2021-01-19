@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SVG Circle</title>
+  <style media="screen">
+  body {
+  background-color:rgba(39, 39, 39, 0.68); /* Background color of Body */
+  font-size:1px;
+}
+.bangladesh{
+width:500px;
+height:300px;
+background-color:#006a4e;
+position:relative;
+}
+.bangladesh::after{
+content:"";
+top:50px;
+left:140px;
+position:absolute;
+width:200px;
+height:200px;
+border-radius:80%;
+background-color:#f42a41;
+}
+  </style>
+</head>
+<body>
+  <svg width="100" hieght="100">
+    <circle cx="50" cy="50" r="45" fill="red" stroke-width="5" stroke="green" />
+
+  </svg>
+
+  <div class="bangladesh">
+
+  </div>
+
+</body>
+</html>
